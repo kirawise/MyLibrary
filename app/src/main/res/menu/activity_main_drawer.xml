@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_borrow"
+            android:icon="@drawable/borrow"
+            android:title="我的借阅" />
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="个人信息" />
+        <item
+            android:id="@+id/nav_bbs"
+            android:icon="@drawable/bbs"
+            android:title="西瓜子论坛" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="设置" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="分享" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="发送" />
+        </menu>
+    </item>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_feedback_24dp"
+                android:title="问题反馈" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_about_24dp"
+                android:title="关于" />
+        </menu>
+    </item>
+
+</menu>
